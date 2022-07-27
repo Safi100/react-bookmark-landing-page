@@ -1,0 +1,124 @@
+.intro{
+    padding: 50px 0;
+}
+.intro .wrapper{
+    display: flex;
+    gap: 50px;
+}
+.intro .wrapper > * {
+    flex-basis: 50%;
+}
+.intro .wrapper .right{
+    position: relative;
+}
+.intro .wrapper .right img{
+    width: 100%;
+}
+.draw{
+    position: absolute;
+    height: 80%;
+    background-color: hsl(231, 69%, 60%);
+    z-index: -1;
+    width: 120vh;
+    border-radius: 20rem;
+    top: -7vw;
+    transform: translateY(60%);
+    left: 25%;
+}
+.intro .wrapper .left{
+    padding: 30px 0;
+}
+.intro .wrapper .left h2{
+    color: var(--Very-Dark-Blue);
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.intro .wrapper .left p{
+    color: var(--Grayish-Blue);
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.intro .wrapper .left .buttons{
+    display: flex;
+    gap: 15px;
+}
+.intro .wrapper .left .buttons .btn{
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    box-shadow: 1px 3px 10px rgb(0, 0, 0 ,0.20);
+    border-radius: 5px;
+    font-weight: 500;
+}
+.chrome_btn{
+    background: var(--Soft-Blue);
+    color: #fff;
+}
+.firefox_btn{
+    background: #F7F7F7;
+    color: #565660;
+}
+.intro .wrapper .left .buttons .btn:hover{
+    background: transparent;
+}
+.intro .wrapper .left .buttons .chrome_btn:hover{
+    color: var(--Soft-Blue);
+    border-color: var(--Soft-Blue);
+}
+.intro .wrapper .left .buttons .firefox_btn:hover{
+
+    color: #5A5A63;
+    border-color: #5A5A63;
+}
+@media screen and (min-width:1044px) and (max-width:1059px)  {
+    .draw{
+        top: -10vh;
+    }
+}
+@media screen and (min-width:1001px) and (max-width:1043px)  {
+    .intro .wrapper .left h2{
+        font-size: 45px;
+    }
+}
+@media screen and  (min-width:550px) and (max-width:1043px) {
+    .draw{
+        top: -13vh;
+    }
+}
+@media screen and  (min-width:800px) and (max-width:1000px) {
+    .draw{
+        top: -15vh;
+    }
+}
+@media screen and (max-width:670px){
+    .draw{
+        top: -7vh;
+    }
+}
+@media screen and (max-width:1000px) {
+    .intro{
+        text-align: center;
+    }
+    .intro .wrapper{
+        flex-direction: column;
+    }
+    .right{
+        order: -1;
+    }
+    .buttons{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:494px) {
+    .intro .wrapper .left h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width:412px) {
+    .intro .wrapper .left h2{
+        font-size: 30px;
+    }
+}
+/* and (min-width:1059px) */
