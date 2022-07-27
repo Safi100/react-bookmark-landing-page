@@ -1,34 +1,31 @@
 import React from 'react'
 import "./app.css"
+import "./index.css"
+import Navbar from "./components/navbar/Navbar"
+import Intro from "./components/intro/Intro"
+import Features from "./components/features/Features"
+import Extension from "./components/extension/Extension"
+import Questions from "./components/questions/Questions"
+import Contact from "./components/contact/Contact"
+import Footer from "./components/footer/Footer"
+
 const App = () => {
   return (
     <div>
-      
+      <Navbar />
+      <Intro />
+      <Features />
+      <Extension />
+      <Questions />
+      <Contact />
+      <Footer />
     </div>
   )
 }
 /* 
-  Features
-  Pricing
-  Contact
-  Login
 
-  A Simple Bookmark Manager
 
-  A clean and simple interface to organize your favourite websites. Open a new 
-  browser tab and see your sites load instantly. Try it for free.
 
-  Get it on Chrome
-  Get it on Firefox
-
-  Features
-
-  Our aim is to make it quick and easy for you to access your favourite websites. 
-  Your bookmarks sync between your devices so you can access them on the go.
-
-  Simple Bookmarking
-  Speedy Searching
-  Easy Sharing
 
   Bookmark in one click
 

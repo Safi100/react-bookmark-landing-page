@@ -8,3 +8,6 @@
     --font-size:18px;
     --font:'Rubik', sans-serif;
 }
+#root{
+    overflow: hidden;
+}

@@ -4,3 +4,11 @@
     box-sizing: border-box;
     font-family: var(--font);
 }
+.wrapper{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+li{
+    list-style: none;
+}
