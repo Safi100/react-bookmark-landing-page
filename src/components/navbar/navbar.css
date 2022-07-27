@@ -1,3 +1,9 @@
+.hide{
+    display: none;
+}
+.hidden{
+    overflow: hidden;
+}
 .navbar{
     padding: 45px 0;
 }
@@ -40,66 +46,25 @@ a{
     background: transparent;
     box-shadow: 0px 1px 3px var(--Soft-Red)
 }
-.social{
-    display: none;
-}
 .hamburger{
     display: none;
     z-index: 3;
 }
 
 @media screen and (max-width:768px) {
+    .list_container{
+        display: none;
+    }
     .hamburger{
         display: block;
     }
-    .list_container{
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        padding-top: 120px;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: hsl(229, 31%, 21%, 0.9);
-        z-index: 2;
-        gap: 0;
-    }
-    /* .first_path{
+    .set_first_path{
         fill: #fff;
     }
-    .second_path{
+    .set_second_path{
         fill:hsla(229, 31%, 21%);
-    } */
-    a{
-        font-size: 30px;
-        color: #fff;
     }
-    .list{
-        text-align: center;
-        width: 90%;
-        padding: 20px 0;
-        border-top: 1px solid var(--Grayish-Blue);
-    }
-    li.list:nth-child(3){
-        border-bottom: 1px solid var(--Grayish-Blue);
-        margin-bottom: 30px;
-    }
-    .login_btn{
-        background: transparent;
-        border: 3px solid #fff;
-        padding: 13px 0;
-    }
-    .list:hover, .list:hover a{
-        color: #fff;
-    }
-    .login_btn:hover{
-        box-shadow: none;
-    }
-    .social{
-        display: flex;
-        gap: 40px;
-        position: absolute;
-        top: 90vh;
+    .set_circle{
+        fill: #fff;
     }
 }
