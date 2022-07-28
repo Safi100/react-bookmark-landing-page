@@ -32,3 +32,14 @@ li{
     border-radius: 5px;
     font-weight: 500;
 }
+.btn:hover{
+    background: transparent;
+}
+.blue_btn{
+    background: var(--Soft-Blue);
+    color: #fff;
+}
+.blue_btn:hover{
+    color: var(--Soft-Blue);
+    border-color: var(--Soft-Blue);
+}

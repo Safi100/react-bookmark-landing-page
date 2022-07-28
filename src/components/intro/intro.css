@@ -43,22 +43,12 @@
     display: flex;
     gap: 15px;
 }
-.blue_btn{
-    background: var(--Soft-Blue);
-    color: #fff;
-}
+
 .firefox_btn{
     background: #F7F7F7;
     color: #565660;
 }
-.intro .wrapper .left .buttons .btn:hover{
-    background: transparent;
-}
-.intro .wrapper .left .buttons .blue_btn:hover{
-    color: var(--Soft-Blue);
-    border-color: var(--Soft-Blue);
-}
-.intro .wrapper .left .buttons .firefox_btn:hover{
+.firefox_btn:hover{
 
     color: #5A5A63;
     border-color: #5A5A63;
@@ -118,4 +108,3 @@
         font-size: 25px;
     }
 }
-/* and (min-width:1059px) */
