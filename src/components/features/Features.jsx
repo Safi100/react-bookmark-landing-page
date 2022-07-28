@@ -12,7 +12,7 @@ const Features = () => {
           <li className='feature'>Speedy Searching</li>
           <li className='feature'>Easy Sharing</li>
         </ul>
-        <div className="">
+        <div className="feature_container">
           <div className="left"></div>
           <div className="right"></div>
         </div>
