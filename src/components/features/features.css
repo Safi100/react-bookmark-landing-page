@@ -1,27 +1,23 @@
 .features{
     padding: 50px 0;
 }
-.features h2{
-    text-align: center;
-    margin-bottom: 20px;
-}
-.features p{
-    text-align: center;
-    max-width: 470px;
-    margin: 0 auto;
-    color: var(--Grayish-Blue);
-    margin-bottom: 30px;
-}
 .features .feature_selector{
     max-width: 650px;
     margin: 0 auto;
     border-bottom: 1px solid #eee;
     display: flex;
+    align-items: center;
+}
+@media screen and (max-width:450px) {
+    .features .feature_selector {
+        flex-direction: column;
+    }
 }
 .features .feature_selector .feature{
     width: 100%;
     text-align: center;
     padding: 20px 0;
+    cursor: pointer;
 }
 .features .feature_selector .feature:first-child{
     border-bottom: 3px solid orangered;
