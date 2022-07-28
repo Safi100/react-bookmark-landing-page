@@ -19,7 +19,7 @@
     height: 80%;
     background-color: hsl(231, 69%, 60%);
     z-index: -1;
-    width: 120vh;
+    width: 120vw;
     border-radius: 20rem;
     top: -7vw;
     transform: translateY(60%);
@@ -43,15 +43,7 @@
     display: flex;
     gap: 15px;
 }
-.intro .wrapper .left .buttons .btn{
-    cursor: pointer;
-    padding: 10px 20px;
-    border: 2px solid transparent;
-    box-shadow: 1px 3px 10px rgb(0, 0, 0 ,0.20);
-    border-radius: 5px;
-    font-weight: 500;
-}
-.chrome_btn{
+.blue_btn{
     background: var(--Soft-Blue);
     color: #fff;
 }
@@ -62,7 +54,7 @@
 .intro .wrapper .left .buttons .btn:hover{
     background: transparent;
 }
-.intro .wrapper .left .buttons .chrome_btn:hover{
+.intro .wrapper .left .buttons .blue_btn:hover{
     color: var(--Soft-Blue);
     border-color: var(--Soft-Blue);
 }
@@ -88,7 +80,7 @@
 }
 @media screen and  (min-width:800px) and (max-width:1000px) {
     .draw{
-        top: -15vh;
+        top: -20vh;
     }
 }
 @media screen and (max-width:670px){
@@ -111,14 +103,19 @@
         flex-wrap: wrap;
     }
 }
-@media screen and (max-width:494px) {
+@media screen and (max-width:511px) {
     .intro .wrapper .left h2{
         font-size: 40px;
     }
 }
-@media screen and (max-width:412px) {
+@media screen and (max-width:428px) {
     .intro .wrapper .left h2{
         font-size: 30px;
+    }
+}
+@media screen and (max-width:326px) {
+    .intro .wrapper .left h2{
+        font-size: 25px;
     }
 }
 /* and (min-width:1059px) */

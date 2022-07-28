@@ -10,7 +10,7 @@ const Intro = () => {
           <p>A clean and simple interface to organize your favourite<br/>websites. Open a new 
           browser tab and see your sites<br/>load instantly. Try it for free.</p>
           <div className="buttons">
-            <button className='btn chrome_btn'>Get it on Chrome</button>
+            <button className='btn blue_btn'>Get it on Chrome</button>
             <button className='btn firefox_btn'>Get it on Firefox</button>
           </div>
         </div>
