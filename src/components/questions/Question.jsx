@@ -14,5 +14,4 @@ const Question = ({question, answer}) => {
     </div>
   )
 }
-
 export default Question
