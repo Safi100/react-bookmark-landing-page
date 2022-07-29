@@ -9,49 +9,46 @@
     flex-direction: column;
     align-items: center;
 }
+.contact h3{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.contact p {
+    font-size: 27px;
+    text-align: center;
+    margin-bottom: 30px;
+}
 .contact form{
     display: flex;
     gap: 20px;
+    width: 100%;
 }
 .contact .left_in_form{
     display: flex;
-    flex-direction: column;
-    position: relative;
+    flex: 1;
 }
-.contact .input{
-    display: flex;
-    background: #fff;
-}
-.contact .input{
-    display: flex;
-    position: relative;
-}
-.contact .input .error_icon{
-    background: url("../../Assets/icon-error.svg");
-    width: 20px;
-    height: 20px;
-    background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-}
-.contact .input input{
-    position: relative;
+.contact input{
     outline: none;
-    border: 1px solid transparent;
+    border: none;
+    font-size: 16px;
+    width: 100%;
+    padding: 0 10px;
+    height: 100%;
+    width: 100%;
+    border-color: transparent;
     border-radius: 5px;
-    background: transparent;
 }
-.contact .left_in_form .error_div{
-    background: var(--Soft-Red);
-    width: 100%;
-    text-align: center;
-    display: flex;
-    padding: 3px;
+.contact .right_in_form .btn{
+    width:-webkit-fill-available;
 }
-.contact .left_in_form .error_div span{
-    width: 100%;
-    font-size: 12px;
+@media screen and (max-width:420px) {
+    .contact form{
+        flex-direction: column;
+    }
+    .contact form .left_in_form input{
+        padding: 10px;
+    }
 }
