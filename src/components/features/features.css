@@ -19,6 +19,9 @@
     padding: 20px 0;
     cursor: pointer;
 }
+.features .feature_selector .feature:hover{
+    color: var(--Soft-Red);
+}
 .features .feature_selector .feature:first-child{
-    border-bottom: 3px solid orangered;
+    border-bottom: 3px solid var(--Soft-Red);
 }
