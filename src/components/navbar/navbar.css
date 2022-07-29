@@ -58,13 +58,13 @@ a{
     .hamburger{
         display: block;
     }
-    .set_first_path{
-        fill: #fff;
-    }
-    .set_second_path{
-        fill:hsla(229, 31%, 21%);
-    }
-    .set_circle{
-        fill: #fff;
-    }
+}
+.set_first_path{
+    fill: #fff;
+}
+.set_second_path{
+    fill:hsla(229, 31%, 21%);
+}
+.set_circle{
+    fill: #fff;
 }

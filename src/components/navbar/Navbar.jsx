@@ -20,9 +20,9 @@ const Navbar = () => {
         {open && <MobileNav />}
         {(open === true) ? document.querySelector("body").classList.add("hidden") : document.querySelector("body").classList.remove("hidden")}
         <div className="hamburger">
-          <img className={(open === true) ? "hide" : ""} src={Hamburger} alt="Hamburger" onClick={() => setOpen(true)}/>
           <img className={(open === false) ? "hide" : ""} src={CloseHamburger} alt="Close Hamburger" onClick={() => setOpen(false)} />
-          </div>
+          <img className={(open === true) ? "hide" : ""} src={Hamburger} alt="Hamburger" onClick={() => setOpen(true)}/>  
+        </div>
       </div>
     </div>
   )

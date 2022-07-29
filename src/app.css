@@ -46,3 +46,13 @@ li{
     color: var(--Soft-Blue);
     border-color: var(--Soft-Blue);
 }
+.red_btn{
+    background: var(--Soft-Red);
+    color: #fff;
+    padding: 10px 20px;
+}
+.red_btn:hover{
+    color: var(--Soft-Red);
+    border-color: var(--Soft-Red);
+    background: #fff;
+}
