@@ -21,9 +21,8 @@
     z-index: -1;
     width: 120vw;
     border-radius: 20rem;
-    top: -7vw;
-    transform: translateY(60%);
     left: 25%;
+    bottom: 0;
 }
 .intro .wrapper .left{
     padding: 30px 0;
@@ -53,29 +52,9 @@
     color: #5A5A63;
     border-color: #5A5A63;
 }
-@media screen and (min-width:1044px) and (max-width:1059px)  {
-    .draw{
-        top: -10vh;
-    }
-}
 @media screen and (min-width:1001px) and (max-width:1043px)  {
     .intro .wrapper .left h2{
         font-size: 45px;
-    }
-}
-@media screen and  (min-width:550px) and (max-width:1043px) {
-    .draw{
-        top: -13vh;
-    }
-}
-@media screen and  (min-width:800px) and (max-width:1000px) {
-    .draw{
-        top: -20vh;
-    }
-}
-@media screen and (max-width:670px){
-    .draw{
-        top: -7vh;
     }
 }
 @media screen and (max-width:1000px) {
