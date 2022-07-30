@@ -1,11 +1,13 @@
 .footer{
     background: var(--Very-Dark-Blue);
     padding: 30px 0;
+    padding-bottom: 5px;
 }
 .footer .wrapper{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 20px;
 }
 .footer .footer_left{
     display: flex;
@@ -48,3 +50,5 @@
         gap: 50px;
     }
 }
+.attribution { color: #fff; font-size: 11px; text-align: center; }
+.attribution a { color: var(--Soft-Red); font-size: 12px; }
