@@ -7,21 +7,84 @@
     border-bottom: 1px solid #eee;
     display: flex;
     align-items: center;
+    margin-bottom: 60px;
 }
 @media screen and (max-width:450px) {
     .features .feature_selector {
         flex-direction: column;
     }
 }
-.features .feature_selector .feature{
+.features .feature_selector .tab{
     width: 100%;
     text-align: center;
     padding: 20px 0;
     cursor: pointer;
 }
-.features .feature_selector .feature:hover{
+.features .feature_selector .tab:hover{
     color: var(--Soft-Red);
 }
-.features .feature_selector .feature:first-child{
-    border-bottom: 3px solid var(--Soft-Red);
+.features .feature_selector .tab{
+    border-bottom: 3px solid transparent;
+}
+.features .feature_selector .tab.active_tab{
+    border-bottom: 3px solid var(--Soft-Red) !important;
+}
+.feature_container{
+    display: flex;
+    gap: 70px;
+}
+.feature_container > * {
+    flex-basis: 50%;
+}
+.feature_container .feature_container_left{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.feature_container .feature_container_left .draw{
+    bottom: -45px;
+    right: 20%;
+    left: unset;
+}
+.feature_container .feature_container_left img{
+    max-width: 100%;
+    position: relative;
+}
+
+.feature_container .feature_container_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.feature_container .feature_container_right .btn{
+    width: max-content;
+}
+.feature_container .feature_container_right h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.feature_container .feature_container_right p{
+    color: var(--Grayish-Blue);
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+@media screen and (max-width:1000px) {
+    .feature_container{
+        flex-direction: column;
+    }
+    .feature_container .feature_container_right{
+        align-items: center;
+        text-align: center;
+    }
+}
+@media screen and (max-width:1000px) {
+    .feature_container{
+        gap: 120px;
+    }
+}
+@media screen and (min-width:750px) and (max-width:899px) {
+    .feature_container{
+        gap: 100px;
+    }
 }
